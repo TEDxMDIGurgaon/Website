@@ -131,7 +131,7 @@ const App = () => {
                     className: "text-4xl",
                     strings: [
                       '<span style="color: red;font-size:64px">TEDx</span><span style="color: white;font-size:64px">MDIGurgaon</span>',
-                      '<span style="color: white;font-size:48px">Embracing The Shift</span>',
+                      '<span style="color: white;font-size:48px">Event 5.0 Coming Soon</span>',
                     ],
                     autoStart: true,
                     loop: true,
