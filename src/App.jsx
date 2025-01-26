@@ -166,7 +166,7 @@ const App = () => {
             id="contact"
           >
             <h2 className="text-3xl font-bold mb-8 w-full text-center">
-              Speaker Line-Up
+              Speaker Line-Up For Event 4.0
             </h2>
             <Carousel images={teamMembers} number={3} />
             <div className="container mx-auto py-12">
