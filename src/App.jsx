@@ -131,7 +131,7 @@ const App = () => {
                     className: "text-4xl",
                     strings: [
                       '<span style="color: red;font-size:64px">TEDx</span><span style="color: white;font-size:64px">MDIGurgaon</span>',
-                      '<span style="color: white;font-size:48px">Embracing The Shift</span>',
+                      '<span style="color: white;font-size:48px">Event 5.0 Coming Soon</span>',
                     ],
                     autoStart: true,
                     loop: true,
@@ -166,7 +166,7 @@ const App = () => {
             id="contact"
           >
             <h2 className="text-3xl font-bold mb-8 w-full text-center">
-              Speaker Line-Up
+              Speaker Line-Up For Event 4.0
             </h2>
             <Carousel images={teamMembers} number={3} />
             <div className="container mx-auto py-12">

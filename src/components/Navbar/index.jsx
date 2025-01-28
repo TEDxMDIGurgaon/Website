@@ -88,6 +88,16 @@ const NavbarComponent = () => {
                 Speakers
               </a>
             </li>
+
+             <li>
+              <a
+                href="/#services"
+                className="block py-2 px-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-400 md:p-0 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Our Sponsors
+              </a>
+            </li>
+            
             <li>
               <a
                 href="#footer"

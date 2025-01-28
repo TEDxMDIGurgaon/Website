@@ -18,6 +18,7 @@ import lakshya from "../../assets/team/lakshya.png";
 import varun from "../../assets/team/varun.png";
 import yash from "../../assets/team/Yash.jpeg";
 
+
 import Abhiraj from "../../assets/junior_team/Abhiraj.jpeg";
 import Anurupa from "../../assets/junior_team/Anurupa.jpeg";
 import Jahnavi from "../../assets/junior_team/Jahnavi.jpeg";
