@@ -28,7 +28,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Typewriter from "typewriter-effect";
 
 const App = () => {
-  const [videoEnded, setVideoEnded] = useState(false);
+  const [videoEnded, setVideoEnded] = useState(true);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = [image1, image2];
 
@@ -98,7 +98,7 @@ const App = () => {
     <>
       <AnimatePresence>
         <ScrollTopButton />
-        {!videoEnded && isChrome && (
+        {/* {!videoEnded && isChrome && (
           <motion.video
             src={video}
             id="tedxVideo"
@@ -111,7 +111,7 @@ const App = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           />
-        )}
+        )} */}
       </AnimatePresence>
       {(!isChrome || videoEnded) && (
         <motion.div
@@ -208,23 +208,7 @@ const App = () => {
             <h2 className="text-3xl font-bold mb-4">TED & TEDx</h2>
             <ImageTextSection />
           </motion.section>
-          <motion.section
-            className="min-h-screen bg-gray-900 text-white p-8"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            id="about"
-          >
-            <h2 className="text-3xl font-bold mb-8 w-full text-center">
-              Past Events
-            </h2>
-            <Carousel images={pastEvents} />
-            <div className="container mx-auto px-4">
-              <div className="sticky">
-                <ScrollFadeComponent />
-              </div>
-            </div>
-          </motion.section>
+          
           <FooterComponent />
         </motion.div>
       )}
