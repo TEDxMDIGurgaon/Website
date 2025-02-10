@@ -158,7 +158,7 @@ const App = () => {
               style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
             ></div>
           </div>
-          <motion.section
+          {/* <motion.section
             className="min-h-screen bg-gray-700 text-white p-8"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -197,7 +197,7 @@ const App = () => {
                 </motion.p>
               </motion.div>
             </div>
-          </motion.section>
+          </motion.section> */}
           <motion.section
             className="min-h-screen bg-black text-white p-8"
             initial={{ opacity: 0, y: 50 }}

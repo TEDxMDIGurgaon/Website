@@ -4,6 +4,8 @@ import * as React from "react";
 import { createRoot } from "react-dom/client";
 import TeamPage from "./pages/TeamPages/index.jsx";
 import EventsPage from "./pages/EventsPages/index.jsx";
+import SponsorsPage from "./pages/SponsorsPages/index.jsx";
+import SpeakersPage from "./pages/SpeakersPages/index.jsx";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
   {
     path: "past-events",
     element: <EventsPage />,
+  },
+  {
+    path: "sponsors",
+    element: <SponsorsPage />,
+  },
+  {
+    path: "speakers",
+    element: <SpeakersPage />,
   },
 ]);
 

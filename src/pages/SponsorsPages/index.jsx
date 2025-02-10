@@ -17,7 +17,8 @@ import harsha from "../../assets/team/SVS Sri Harsha.png";
 import lakshya from "../../assets/team/lakshya.png";
 import varun from "../../assets/team/varun.png";
 import yash from "../../assets/team/Yash.jpeg";
-
+import FlakeImage from '../../assets/sponsors/flake.jpg'
+import AzMasters from '../../assets/sponsors/azmasters.jpg'
 
 import Abhiraj from "../../assets/junior_team/Abhiraj.jpeg";
 import Anurupa from "../../assets/junior_team/Anurupa.jpeg";
@@ -44,7 +45,7 @@ import p3 from "../../assets/conv_event/1 (3).jpeg";
 import p4 from "../../assets/conv_event/1 (4).jpeg";
 import p5 from "../../assets/conv_event/1 (7).jpeg";
 
-const EventsPage = () => {
+const SponsorsPages = () => {
 
     const pastEvents = [
         { id: 1, name: "Team", image: p1, member: "Senior member" },
@@ -56,28 +57,25 @@ const EventsPage = () => {
     return (
         <div>
             <NavbarComponent />
-            <div className="mx-auto pt-[64px]">
-                <motion.section
-                    className="min-h-screen bg-[black] text-white p-8"
-                    initial={{ opacity: 0, y: 50 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
-                    id="about"
-                >
-                    <h2 className="text-3xl font-bold mb-8 w-full text-center">
-                        Past Events
-                    </h2>
-                    <Carousel images={pastEvents} />
-                    <div className="container mx-auto px-4">
-                        <div className="sticky">
-                            <ScrollFadeComponent />
+            <div className="mx-auto pt-[96px] bg-[black]">
+                <div className="flex flex flex-col justify-center items-center align-middle gap-16">
+                    <div className="flex flex-col gap-4 justify-center items-center align-middle ">
+                        <p className="text-white text-4xl font-bold">Our Beverage Sponsor</p>
+                        <div className="w-[300px] h-[300px]">
+                            <img src={FlakeImage} />
                         </div>
                     </div>
-                </motion.section>
+                    <div className="flex flex-col gap-4 justify-center items-center align-middle ">
+                        <p className="text-white text-4xl font-bold">Our Salon Sponsor</p>
+                        <div className="w-[300px] h-[300px]">
+                            <img src={AzMasters} />
+                        </div>
+                    </div>
+                </div>
             </div>
             <FooterComponent />
         </div>
     );
 };
 
-export default EventsPage;
+export default SponsorsPages;
