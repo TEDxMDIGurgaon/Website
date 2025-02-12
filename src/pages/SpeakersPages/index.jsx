@@ -3,38 +3,8 @@ import NavbarComponent from "../../components/Navbar";
 import TeamSection from "../../components/TeamSection";
 import FooterComponent from "../../components/Footer";
 
-import utsukh from "../../assets/team/utsukh.png";
-import shrish from "../../assets/team/shrish.png";
-import ayan from "../../assets/team/ayan.jpeg";
-import karthikeyan from "../../assets/team/karthik.jpeg";
-import mohak from "../../assets/team/mohak.png";
-import mukul from "../../assets/team/mukul.jpeg";
-import pankhuri from "../../assets/team/Pankhuri.jpeg";
-import sanchita from "../../assets/team/sanchita.jpg";
-import shweta from "../../assets/team/shweta.jpeg";
-import siddhant from "../../assets/team/siddhant.png";
-import harsha from "../../assets/team/SVS Sri Harsha.png";
-import lakshya from "../../assets/team/lakshya.png";
-import varun from "../../assets/team/varun.png";
-import yash from "../../assets/team/Yash.jpeg";
 
 
-import Abhiraj from "../../assets/junior_team/Abhiraj.jpeg";
-import Anurupa from "../../assets/junior_team/Anurupa.jpeg";
-import Jahnavi from "../../assets/junior_team/Jahnavi.jpeg";
-import Sanskar from "../../assets/junior_team/Sanskar.jpeg";
-import Divya from "../../assets/junior_team/Divya.jpeg";
-import Jai from "../../assets/junior_team/Jai.jpeg";
-import Mollshree from "../../assets/junior_team/Mollshree.jpeg";
-import Kashavi from "../../assets/junior_team/Kashavi.jpeg";
-import Deepanshu from "../../assets/junior_team/Deepanshu.jpeg";
-import Anirudha from "../../assets/junior_team/Anirudha.png";
-import Ispita from "../../assets/junior_team/Ispita.jpeg";
-import Nandini from "../../assets/junior_team/Nandini.jpeg";
-import Sanchita_B from "../../assets/junior_team/Sanchita_B.jpeg";
-import Dhriti from "../../assets/junior_team/Dhriti.jpeg";
-import Mukul from "../../assets/junior_team/Mukul.jpeg";
-import Subholaxmi from "../../assets/junior_team/Subholaxmi.jpeg";
 import { motion, AnimatePresence } from "framer-motion";
 import Carousel from "../../components/Carousel";
 import ScrollFadeComponent from "../../components/ScrollFadeComponent";
@@ -52,11 +22,18 @@ import vandana from "../../assets/PresentSpeakers/MAJOR VANDANA SHARMA.jpeg";
 import puneet from "../../assets/PresentSpeakers/PUNEET RAO.jpeg";
 import vicky from "../../assets/PresentSpeakers/VICKY ROY.jpeg";
 import vikram from "../../assets/PresentSpeakers/VIKRAM RAI.jpeg";
+import amit from "../../assets/PresentSpeakers/AMIT BONI.jpeg";
+import anurag from "../../assets/PresentSpeakers/ANURAG BATRA.jpeg";
+import girish from "../../assets/PresentSpeakers/GIRISH AIVALLI.jpeg";
+import mohit from "../../assets/PresentSpeakers/MOHIT GANG.jpeg";
+import nitin from "../../assets/PresentSpeakers/NITIN ARORA.jpeg";
+import ritwik from "../../assets/PresentSpeakers/RITWIK BHOWMIK.jpeg";
+import shobhit from "../../assets/PresentSpeakers/SHOBHIT SARASWAT.jpeg";
 import Typewriter from "typewriter-effect";
 import ImageTextSection from "../../components/ImageSection/index";
 const SpeakersPage = () => {
 
-    const teamMembers = [
+    const teamMembers1 = [
         { id: 1, name: "Akash Gupta, Founder ZYPP Electric", image: akash, member: "Senior member" },
         { id: 2, name: "Ankur Warikoo", image: ankur, member: "Senior member" },
         { id: 3, name: "Captain Zoya Agarwal, Pilot", image: zoya, member: "Senior member" },
@@ -66,6 +43,15 @@ const SpeakersPage = () => {
         { id: 7, name: "Puneet Rao, Fitness Influencer", image: puneet, member: "Senior member" },
         { id: 8, name: "Vicky Roy, International Photographer", image: vicky, member: "Senior member" },
         { id: 9, name: "Vikram Rai, MD GE South Asia", image: vikram, member: "Senior member" },
+      ];
+      const teamMembers2 = [
+        { id: 10, name: "Amit Boni, Founder & CEO, Ensuredit", image: amit, member: "Senior member" },
+        { id: 11, name: "Anurag Batra, Chairman, BusinessWorld", image: anurag, member: "Senior member" },
+        { id: 12, name: "Girish Aivalli, CEO, IIC", image: girish, member: "Senior member" },
+        { id: 13, name: "Mohit Gang, CEO, Money Front", image: mohit, member: "Senior member" },
+        { id: 14, name: "Nitin Arora, Investment Banker", image: nitin, member: "Senior member" },
+        { id: 15, name: "Ritwik Bhowmik, Actor", image: ritwik, member: "Senior member" },
+        { id: 16, name: "Shobhit Saraswat, Rupee Funding", image: shobhit, member: "Senior member" },
       ];
     return (
     <>
@@ -141,7 +127,7 @@ const SpeakersPage = () => {
             <h2 className="text-3xl font-bold mb-8 w-full text-center">
               Speaker Line-Up For Event 5.0
             </h2>
-            <Carousel images={teamMembers} number={3} />
+            <Carousel images={teamMembers2} number={3} />
             {/* <div className="container mx-auto py-12">
               <motion.div
                 initial={{ opacity: 0, y: 50 }}
@@ -181,7 +167,7 @@ const SpeakersPage = () => {
             <h2 className="text-3xl font-bold mb-8 w-full text-center">
               Speaker Line-Up For Event 4.0
             </h2>
-            <Carousel images={teamMembers} number={3} />
+            <Carousel images={teamMembers1} number={3} />
             <div className="container mx-auto py-12">
               <motion.div
                 initial={{ opacity: 0, y: 50 }}

@@ -3,38 +3,39 @@ import NavbarComponent from "../../components/Navbar";
 import TeamSection from "../../components/TeamSection";
 import FooterComponent from "../../components/Footer";
 
-import utsukh from "../../assets/team/utsukh.png";
-import shrish from "../../assets/team/shrish.png";
-import ayan from "../../assets/team/ayan.jpeg";
-import karthikeyan from "../../assets/team/karthik.jpeg";
-import mohak from "../../assets/team/mohak.png";
-import mukul from "../../assets/team/mukul.jpeg";
-import pankhuri from "../../assets/team/Pankhuri.jpeg";
-import sanchita from "../../assets/team/sanchita.jpg";
-import shweta from "../../assets/team/shweta.jpeg";
-import siddhant from "../../assets/team/siddhant.png";
-import harsha from "../../assets/team/SVS Sri Harsha.png";
-import lakshya from "../../assets/team/lakshya.png";
-import varun from "../../assets/team/varun.png";
-import yash from "../../assets/team/Yash.jpeg";
+import utsukh from "../../assets/team/Utsukh.png";
+import shrish from "../../assets/team/Shrish.png";
+import ayan from "../../assets/team/Ayan.png";
+import karthikeyan from "../../assets/team/Karthikeyan.png";
+import mohak from "../../assets/team/Mohak.png";
+import mukul from "../../assets/team/Mukul.png";
+import pankhuri from "../../assets/team/Pankhuri.png";
+import sanchita from "../../assets/team/Sanchita.png";
+import shweta from "../../assets/team/Shweta.png";
+import siddhant from "../../assets/team/Siddhant.png";
+import harsha from "../../assets/team/Harsha.png";
+import lakshya from "../../assets/team/Lakshya.png";
+import varun from "../../assets/team/Varun.png";
+import yash from "../../assets/team/Yash.png";
 
 
-import Abhiraj from "../../assets/junior_team/Abhiraj.jpeg";
-import Anurupa from "../../assets/junior_team/Anurupa.jpeg";
-import Jahnavi from "../../assets/junior_team/Jahnavi.jpeg";
-import Sanskar from "../../assets/junior_team/Sanskar.jpeg";
-import Divya from "../../assets/junior_team/Divya.jpeg";
-import Jai from "../../assets/junior_team/Jai.jpeg";
-import Mollshree from "../../assets/junior_team/Mollshree.jpeg";
-import Kashavi from "../../assets/junior_team/Kashavi.jpeg";
-import Deepanshu from "../../assets/junior_team/Deepanshu.jpeg";
-import Anirudha from "../../assets/junior_team/Anirudha.png";
-import Ispita from "../../assets/junior_team/Ispita.jpeg";
-import Nandini from "../../assets/junior_team/Nandini.jpeg";
-import Sanchita_B from "../../assets/junior_team/Sanchita_B.jpeg";
-import Dhriti from "../../assets/junior_team/Dhriti.jpeg";
-import Mukul from "../../assets/junior_team/Mukul.jpeg";
-import Subholaxmi from "../../assets/junior_team/Subholaxmi.jpeg";
+import Abhiraj from "../../assets/junior_team/Abhiraj.png";
+import Anurupa from "../../assets/junior_team/Anurupa.png";
+import Atharva from "../../assets/junior_team/Atharva.png";
+import Jahnavi from "../../assets/junior_team/Jahnavi.png";
+import Sanskar from "../../assets/junior_team/Sanskar.png";
+import Divya from "../../assets/junior_team/Divya.png";
+import Jai from "../../assets/junior_team/Jai.png";
+import Mollshree from "../../assets/junior_team/Mollshree.png";
+import Kashavi from "../../assets/junior_team/Kashavi.png";
+import Deepanshu from "../../assets/junior_team/Deepanshu.png";
+import Ispita from "../../assets/junior_team/Ispita.png";
+import Sanchita_B from "../../assets/junior_team/Sanchita_B.png";
+import Dhriti from "../../assets/junior_team/Dhriti.png";
+import Mukul from "../../assets/junior_team/Mukul.png";
+import Nihal from "../../assets/junior_team/Nihal.png";
+import Subholaxmi from "../../assets/junior_team/Subholaxmi.png";
+import Kashika from "../../assets/junior_team/Kashika.png";
 
 const TeamPage = () => {
   const teamMembers23 = [
@@ -60,8 +61,10 @@ const TeamPage = () => {
     { name: "Divya", image: Divya },
     { name: "Ispita", image: Ispita },
     { name: "Deepanshu", image: Deepanshu },
-    { name: "Anirudha", image: Anirudha },
     { name: "Abhiraj", image: Abhiraj },
+    { name: "Atharva", image: Atharva },
+    { name: "Nihal", image: Nihal },
+    { name: "Kashika", image: Kashika },
     { name: "Kashavi", image: Kashavi },
     { name: "Jai", image: Jai },
     { name: "Sanskar", image: Sanskar },

@@ -22,6 +22,13 @@ import vandana from "./assets/PresentSpeakers/MAJOR VANDANA SHARMA.jpeg";
 import puneet from "./assets/PresentSpeakers/PUNEET RAO.jpeg";
 import vicky from "./assets/PresentSpeakers/VICKY ROY.jpeg";
 import vikram from "./assets/PresentSpeakers/VIKRAM RAI.jpeg";
+import amit from "./assets/PresentSpeakers/AMIT BONI.jpeg";
+import anurag from "./assets/PresentSpeakers/ANURAG BATRA.jpeg";
+import girish from "./assets/PresentSpeakers/GIRISH AIVALLI.jpeg";
+import mohit from "./assets/PresentSpeakers/MOHIT GANG.jpeg";
+import nitin from "./assets/PresentSpeakers/NITIN ARORA.jpeg";
+import ritwik from "./assets/PresentSpeakers/RITWIK BHOWMIK.jpeg";
+import shobhit from "./assets/PresentSpeakers/SHOBHIT SARASWAT.jpeg";
 
 import { useEffect, useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -40,7 +47,7 @@ const App = () => {
     { id: 5, name: "Terence", image: p5, member: "Senior member" },
   ];
 
-  const teamMembers = [
+  const teamMembers1 = [
     { id: 1, name: "Akash Gupta, Founder ZYPP Electric", image: akash, member: "Senior member" },
     { id: 2, name: "Ankur Warikoo", image: ankur, member: "Senior member" },
     { id: 3, name: "Captain Zoya Agarwal, Pilot", image: zoya, member: "Senior member" },
@@ -50,6 +57,16 @@ const App = () => {
     { id: 7, name: "Puneet Rao, Fitness Influencer", image: puneet, member: "Senior member" },
     { id: 8, name: "Vicky Roy, International Photographer", image: vicky, member: "Senior member" },
     { id: 9, name: "Vikram Rai, MD GE South Asia", image: vikram, member: "Senior member" },
+  ];
+  
+  const teamMembers2 = [
+    { id: 10, name: "Amit Boni, Founder & CEO, Ensuredit", image: amit, member: "Senior member" },
+    { id: 11, name: "Anurag Batra, Chairman & Editor-in-Chief, BusinessWorld", image: anurag, member: "Senior member" },
+    { id: 12, name: "Girish Aivalli, CEO, Impacy Investors Council (IIC)", image: girish, member: "Senior member" },
+    { id: 13, name: "Mohit Gang, Co-Founder & CEO, Money Front", image: mohit, member: "Senior member" },
+    { id: 14, name: "Nitin Arora, Director, Global Corporate and Investment Banking", image: nitin, member: "Senior member" },
+    { id: 15, name: "Ritwik Bhowmik, Lead Actor, Bandish Bandits", image: ritwik, member: "Senior member" },
+    { id: 16, name: "Shobhit Saraswat, Co-Founder, Rupee Funding", image: shobhit, member: "Senior member" },
   ];
 
   const isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
