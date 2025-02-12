@@ -3,19 +3,19 @@ import NavbarComponent from "../../components/Navbar";
 import TeamSection from "../../components/TeamSection";
 import FooterComponent from "../../components/Footer";
 
-import utsukh from "../../assets/team/Utsukh.png";
-import shrish from "../../assets/team/Shrish.png";
+import utsukh from "../../assets/team/utsukh.png";
+import shrish from "../../assets/team/shrish.png";
 import ayan from "../../assets/team/Ayan.png";
 import karthikeyan from "../../assets/team/Karthikeyan.png";
-import mohak from "../../assets/team/Mohak.png";
+import mohak from "../../assets/team/mohak.png";
 import mukul from "../../assets/team/Mukul.png";
 import pankhuri from "../../assets/team/Pankhuri.png";
 import sanchita from "../../assets/team/Sanchita.png";
 import shweta from "../../assets/team/Shweta.png";
-import siddhant from "../../assets/team/Siddhant.png";
+import siddhant from "../../assets/team/siddhant.png";
 import harsha from "../../assets/team/Harsha.png";
-import lakshya from "../../assets/team/Lakshya.png";
-import varun from "../../assets/team/Varun.png";
+import lakshya from "../../assets/team/lakshya.png";
+import varun from "../../assets/team/varun.png";
 import yash from "../../assets/team/Yash.png";
 
 
