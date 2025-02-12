@@ -20,7 +20,7 @@ const NavbarComponent = () => {
           </span>
         </a>
         <div className="flex gap-x-4">
-          <div className="flex">
+          {/* <div className="flex">
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
@@ -29,16 +29,16 @@ const NavbarComponent = () => {
             >
               Team
             </motion.button>
-          </div>
-          <div className="flex md:order-2 space-x-3">
-            <motion.button
+          </div> */}
+          {/* <div className="flex md:order-2 space-x-3"> */}
+            {/* <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               onClick={() => handleFormOpen()}
               className="text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
             >
              Register
-            </motion.button>
+            </motion.button> */}
             {/* <button
             data-collapse-toggle="navbar-sticky"
             type="button"
@@ -63,7 +63,7 @@ const NavbarComponent = () => {
               />
             </svg>
           </button> */}
-          </div>
+          {/* </div> */}
         </div>
         <div
           className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
@@ -82,7 +82,7 @@ const NavbarComponent = () => {
 
             <li>
               <a
-                href="/#services"
+                href="/speakers"
                 className="block py-2 px-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-400 md:p-0 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Speakers
@@ -91,13 +91,28 @@ const NavbarComponent = () => {
 
              <li>
               <a
-                href="/#services"
+                href="/sponsors"
                 className="block py-2 px-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-400 md:p-0 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Our Sponsors
               </a>
             </li>
-            
+            <li>
+              <a
+                href="/past-events"
+                className="block py-2 px-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-400 md:p-0 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Event 4.0
+              </a>
+            </li>
+            <li>
+              <a
+                href="/team"
+                className="block py-2 px-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-400 md:p-0 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Team
+              </a>
+            </li>
             <li>
               <a
                 href="#footer"
