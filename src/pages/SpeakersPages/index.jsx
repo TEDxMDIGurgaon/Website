@@ -49,7 +49,7 @@ const SpeakersPage = () => {
         { id: 11, name: "Anurag Batra, Chairman, BusinessWorld", image: anurag, member: "Senior member" },
         { id: 12, name: "Girish Aivalli, CEO, IIC", image: girish, member: "Senior member" },
         { id: 13, name: "Mohit Gang, CEO, Money Front", image: mohit, member: "Senior member" },
-        { id: 14, name: "Nitin Arora, Investment Banker", image: nitin, member: "Senior member" },
+        { id: 14, name: "Nitin Arora, Corporate Banker", image: nitin, member: "Senior member" },
         { id: 15, name: "Ritwik Bhowmik, Actor", image: ritwik, member: "Senior member" },
         { id: 16, name: "Shobhit Saraswat, Rupee Funding", image: shobhit, member: "Senior member" },
       ];
@@ -125,7 +125,7 @@ const SpeakersPage = () => {
             id="contact"
           >
             <h2 className="text-3xl font-bold mb-8 w-full text-center">
-              Speaker Line-Up For Event 5.0
+              Speaker Line-Up For <span className="text-red-500">TEDx 5.0</span>
             </h2>
             <Carousel images={teamMembers2} number={3} />
             {/* <div className="container mx-auto py-12">
@@ -165,7 +165,7 @@ const SpeakersPage = () => {
             id="contact"
           >
             <h2 className="text-3xl font-bold mb-8 w-full text-center">
-              Speaker Line-Up For Event 4.0
+              Speaker Line-Up For <span className="text-red-500">TEDx 4.0</span>
             </h2>
             <Carousel images={teamMembers1} number={3} />
             <div className="container mx-auto py-12">
