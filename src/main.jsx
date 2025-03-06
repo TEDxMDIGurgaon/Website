@@ -27,10 +27,6 @@ const router = createBrowserRouter([
     element: <EventsPage />,
   },
   {
-    path: "sponsors",
-    element: <SponsorsPage />,
-  },
-  {
     path: "speakers",
     element: <SpeakersPage />,
   },
