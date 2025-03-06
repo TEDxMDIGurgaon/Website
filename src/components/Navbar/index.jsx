@@ -63,18 +63,6 @@ const NavbarComponent = () => {
             </li>
             <li>
               <NavLink
-                to="/sponsors"
-                className={({ isActive }) =>
-                  isActive
-                    ? "block py-2 px-3 text-white md:p-0 md:hover:text-gray-400"
-                    : "block py-2 px-3 text-gray-400 md:p-0 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-400"
-                }
-              >
-                Our Sponsors
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
                 to="/past-events"
                 className={({ isActive }) =>
                   isActive
