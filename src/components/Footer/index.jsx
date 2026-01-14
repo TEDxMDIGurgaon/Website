@@ -102,7 +102,7 @@ const FooterComponent = () => {
               TEDxMDIGurgaon
             </motion.div>
             <div className="text-center text-sm">
-              <p>© 2024 TEDxMDIGurgaon. All rights reserved.</p>
+              <p>© 2026 TEDxMDIGurgaon. All rights reserved.</p>
               <p>Follow us on social media:</p>
             </div>
             <div className="flex space-x-4">
