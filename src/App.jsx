@@ -46,7 +46,6 @@ const App = () => {
     { id: 4, name: "Prahatlhan", image: p4, member: "Senior member" },
     { id: 5, name: "Terence", image: p5, member: "Senior member" },
   ];
-
   const teamMembers1 = [
     { id: 1, name: "Akash Gupta, Founder ZYPP Electric", image: akash, member: "Senior member" },
     { id: 2, name: "Ankur Warikoo", image: ankur, member: "Senior member" },
