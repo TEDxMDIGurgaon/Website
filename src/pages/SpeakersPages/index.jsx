@@ -29,21 +29,25 @@ import mohit from "../../assets/PresentSpeakers/MOHIT GANG.jpeg";
 import nitin from "../../assets/PresentSpeakers/NITIN ARORA.jpeg";
 import ritwik from "../../assets/PresentSpeakers/RITWIK BHOWMIK.jpeg";
 import shobhit from "../../assets/PresentSpeakers/SHOBHIT SARASWAT.jpeg";
+import sangeeta from "../../assets/PresentSpeakers/SANGEETA SIDHI BAHL.jpeg";
+import rinima from "../../assets/PresentSpeakers/RINIMA BORAH.jpg";
+import singh from "../../assets/PresentSpeakers/MAJOR DP SINGH.jpg";
+import vivek from "../../assets/PresentSpeakers/VIVEK SETHIA.jpeg";
+import dheeraj from "../../assets/PresentSpeakers/DHEERAJ DOGRA.jpg";
+import lakshmi from "../../assets/PresentSpeakers/LAXMI RANA.jpg";
+
 import Typewriter from "typewriter-effect";
 import ImageTextSection from "../../components/ImageSection/index";
 const SpeakersPage = () => {
 
     const teamMembers1 = [
-        { id: 1, name: "Akash Gupta, Founder ZYPP Electric", image: akash, member: "Senior member" },
-        { id: 2, name: "Ankur Warikoo", image: ankur, member: "Senior member" },
-        { id: 3, name: "Captain Zoya Agarwal, Pilot", image: zoya, member: "Senior member" },
-        { id: 4, name: "S Anand", image: anand, member: "Senior member" },
-        { id: 5, name: "Awdhesh Singh", image: awdhesh, member: "Senior member" },
-        { id: 6, name: "Major Vandana", image: vandana, member: "Senior member" },
-        { id: 7, name: "Puneet Rao, Fitness Influencer", image: puneet, member: "Senior member" },
-        { id: 8, name: "Vicky Roy, International Photographer", image: vicky, member: "Senior member" },
-        { id: 9, name: "Vikram Rai, MD GE South Asia", image: vikram, member: "Senior member" },
-      ];
+        { id: 1, name: "Sangeeta Sindhi Bahl, Alpinist", image: sangeeta, member: "Senior member" },
+        { id: 2, name: "Rinima Borah, Mrs India World", image: rinima, member: "Senior member" },
+        { id: 3, name: "Major DP Singh, Major", image: singh, member: "Senior member" },
+        { id: 4, name: "Vivek Sethia, Founder, India on Track", image: vivek, member: "Senior member" },
+        { id: 5, name: "Dr.Dheeraj Dogra, Senior Consultant", image: dheeraj, member: "Senior member" },
+        { id: 6, name: "Lakshmi Rana, ", image: lakshmi, member: "Senior member" },
+        ];
       const teamMembers2 = [
         { id: 10, name: "Amit Boni, Founder & CEO, Ensuredit", image: amit, member: "Senior member" },
         { id: 11, name: "Anurag Batra, Chairman, BusinessWorld", image: anurag, member: "Senior member" },
@@ -118,6 +122,18 @@ const SpeakersPage = () => {
             ></div>
           </div> */}
           <motion.section
+            className="min-h-screen bg-[black] text-white p-8"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            id="contact"
+          >
+            <h2 className="text-3xl font-bold mb-8 w-full text-center">
+              Speaker Line-Up For <span className="text-red-500">TEDx 6.0</span>
+            </h2>
+            <Carousel images={teamMembers1} number={3} />
+          </motion.section>
+          <motion.section
             className="bg-[black] text-white p-8 pt-[96px]"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -128,6 +144,34 @@ const SpeakersPage = () => {
               Speaker Line-Up For <span className="text-red-500">TEDx 5.0</span>
             </h2>
             <Carousel images={teamMembers2} number={3} />
+                        <div className="container mx-auto py-12">
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+                className="max-w-4xl mx-auto"
+              >
+                <motion.h2
+                  initial={{ opacity: 0, y: 50 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 1, delay: 0.5 }}
+                  className="text-3xl font-bold mb-4"
+                >
+                  Welcome to TEDxMDIGurgaon
+                </motion.h2>
+                <motion.p
+                  initial={{ opacity: 0, y: 50 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 1, delay: 1 }}
+                  className="text-lg"
+                >
+                  TEDxMDIGurgaon brings together bright minds to give talks that
+                  are idea-focused, and on a wide range of subjects, to foster
+                  learning, inspiration, and wonder – and provoke conversations
+                  that matter.
+                </motion.p>
+              </motion.div>
+            </div>
             {/* <div className="container mx-auto py-12">
               <motion.div
                 initial={{ opacity: 0, y: 50 }}
@@ -156,46 +200,6 @@ const SpeakersPage = () => {
                 </motion.p>
               </motion.div>
             </div> */}
-          </motion.section>
-          <motion.section
-            className="min-h-screen bg-[black] text-white p-8"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            id="contact"
-          >
-            <h2 className="text-3xl font-bold mb-8 w-full text-center">
-              Speaker Line-Up For <span className="text-red-500">TEDx 4.0</span>
-            </h2>
-            <Carousel images={teamMembers1} number={3} />
-            <div className="container mx-auto py-12">
-              <motion.div
-                initial={{ opacity: 0, y: 50 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}
-                className="max-w-4xl mx-auto"
-              >
-                <motion.h2
-                  initial={{ opacity: 0, y: 50 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 1, delay: 0.5 }}
-                  className="text-3xl font-bold mb-4"
-                >
-                  Welcome to TEDxMDIGurgaon
-                </motion.h2>
-                <motion.p
-                  initial={{ opacity: 0, y: 50 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 1, delay: 1 }}
-                  className="text-lg"
-                >
-                  TEDxMDIGurgaon brings together bright minds to give talks that
-                  are idea-focused, and on a wide range of subjects, to foster
-                  learning, inspiration, and wonder – and provoke conversations
-                  that matter.
-                </motion.p>
-              </motion.div>
-            </div>
           </motion.section>
           {/* <motion.section
             className="min-h-screen bg-black text-white p-8"
