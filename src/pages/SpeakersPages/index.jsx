@@ -34,7 +34,7 @@ import rinima from "../../assets/PresentSpeakers/RINIMA BORAH.jpg";
 import singh from "../../assets/PresentSpeakers/MAJOR DP SINGH.jpg";
 import vivek from "../../assets/PresentSpeakers/VIVEK SETHIA.jpeg";
 import dheeraj from "../../assets/PresentSpeakers/DHEERAJ DOGRA.jpg";
-import lakshmi from "../../assets/PresentSpeakers/LAXMI RANA.jpg";
+import lakshmi from "../../assets/PresentSpeakers/LAXMI RANA.jpeg";
 
 import Typewriter from "typewriter-effect";
 import ImageTextSection from "../../components/ImageSection/index";
