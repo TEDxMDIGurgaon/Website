@@ -29,7 +29,7 @@ import mohit from "../../assets/PresentSpeakers/MOHIT GANG.jpeg";
 import nitin from "../../assets/PresentSpeakers/NITIN ARORA.jpeg";
 import ritwik from "../../assets/PresentSpeakers/RITWIK BHOWMIK.jpeg";
 import shobhit from "../../assets/PresentSpeakers/SHOBHIT SARASWAT.jpeg";
-import sangeeta from "../../assets/PresentSpeakers/SANGEETA SIDHI BAHL.jpeg";
+import sangeeta from "../../assets/PresentSpeakers/SANGEETA SIDHI BAHL.jpg";
 import rinima from "../../assets/PresentSpeakers/RINIMA BORAH.jpg";
 import singh from "../../assets/PresentSpeakers/MAJOR DP SINGH.jpg";
 import vivek from "../../assets/PresentSpeakers/VIVEK SETHIA.jpeg";
