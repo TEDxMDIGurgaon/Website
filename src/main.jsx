@@ -11,6 +11,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import AlumsPage from "./pages/AlumsPages/index.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "speakers",
     element: <SpeakersPage />,
+  },
+    {
+    path: "alums",
+    element: <AlumsPage />,
   },
 ]);
 
