@@ -24,7 +24,7 @@ import vicky from "./assets/PresentSpeakers/VICKY ROY.jpeg";
 import vikram from "./assets/PresentSpeakers/VIKRAM RAI.jpeg";
 import amit from "./assets/PresentSpeakers/AMIT BONI.jpeg";
 import anurag from "./assets/PresentSpeakers/ANURAG BATRA.jpeg";
-import girish from "./assets/PresentSpeakers/GIRISH AIVALLI.jpeg";
+import girish from "./assets/PresentSpeakers/GIRISH AIVALLI.jpg";
 import mohit from "./assets/PresentSpeakers/MOHIT GANG.jpeg";
 import nitin from "./assets/PresentSpeakers/NITIN ARORA.jpeg";
 import ritwik from "./assets/PresentSpeakers/RITWIK BHOWMIK.jpeg";
@@ -46,7 +46,6 @@ const App = () => {
     { id: 4, name: "Prahatlhan", image: p4, member: "Senior member" },
     { id: 5, name: "Terence", image: p5, member: "Senior member" },
   ];
-
   const teamMembers1 = [
     { id: 1, name: "Akash Gupta, Founder ZYPP Electric", image: akash, member: "Senior member" },
     { id: 2, name: "Ankur Warikoo", image: ankur, member: "Senior member" },
@@ -148,7 +147,7 @@ const App = () => {
                     className: "text-4xl",
                     strings: [
                       '<span style="color: red;font-size:64px">TEDx</span><span style="color: white;font-size:64px">MDIGurgaon</span>',
-                      '<span style="color: white;font-size:48px">Event 5.0 Coming Soon</span>',
+                      '<span style="color: white;font-size:48px">Event 6.0 is here!</span>',
                     ],
                     autoStart: true,
                     loop: true,

@@ -4,7 +4,6 @@ import * as React from "react";
 import { createRoot } from "react-dom/client";
 import TeamPage from "./pages/TeamPages/index.jsx";
 import EventsPage from "./pages/EventsPages/index.jsx";
-import SponsorsPage from "./pages/SponsorsPages/index.jsx";
 import SpeakersPage from "./pages/SpeakersPages/index.jsx";
 import {
   createBrowserRouter,
@@ -12,6 +11,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import AlumsPage from "./pages/AlumsPages/index.jsx";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "speakers",
     element: <SpeakersPage />,
+  },
+    {
+    path: "alums",
+    element: <AlumsPage />,
   },
 ]);
 

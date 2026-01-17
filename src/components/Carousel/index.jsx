@@ -48,7 +48,7 @@ const Carousel = ({ images,number=3 }) => {
               <img
                 src={member.image}
                 alt={member.name}
-                className="object-cover w-full h-64 sm:h-48 md:h-72 rounded-lg"
+                className="object-cover object-top object-[center_15%] w-full h-64 sm:h-48 md:h-72 rounded-lg"
               />
               <div className="absolute bottom-0 left-0 w-full bg-opacity-50 bg-black p-4">
                 <h3 className="text-lg font-semibold text-white">{member.name}</h3>

@@ -70,7 +70,7 @@ const NavbarComponent = () => {
                     : "block py-2 px-3 text-gray-400 md:p-0 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-400"
                 }
               >
-                Event 4.0
+                Past Events
               </NavLink>
             </li>
             <li>
@@ -83,6 +83,18 @@ const NavbarComponent = () => {
                 }
               >
                 Team
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/alums"
+                className={({ isActive }) =>
+                  isActive
+                    ? "block py-2 px-3 text-white md:p-0 md:hover:text-gray-400"
+                    : "block py-2 px-3 text-gray-400 md:p-0 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-400"
+                }
+              >
+                Alumni
               </NavLink>
             </li>
           </ul>
