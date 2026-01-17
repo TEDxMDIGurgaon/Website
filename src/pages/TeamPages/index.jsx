@@ -74,7 +74,6 @@ const TeamPage = () => {
     { name: "Jai", image: Jai },
     { name: "Sanskar", image: Sanskar },
     { name: "Sanchita", image: Sanchita_B },
-    { name: "Dhriti", image: Dhriti },
     { name: "Mukul", image: Mukul },
     { name: "Subholaxmi", image: Subholaxmi },
   ];
